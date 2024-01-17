@@ -3,8 +3,8 @@
 
 Curso practico wordpress
 
-Nota importante: EL contenido de ésta carpeta debería ir directamente en la carpeta HTDOCS de XAMPP.
-El entorno de desarrollo es en localhost.
+Nota importante: El contenido de ésta carpeta debería ir directamente en la carpeta HTDOCS de XAMPP.
+El entorno de desarrollo es en localhost y la codificación principal se encuentra en la carpeta platzi/wp-content/themes/platzi
 =======
 # Platzi - Curso Práctico de Wordpress
 
