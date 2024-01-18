@@ -1,3 +1,6 @@
+- Nota importante: El contenido de ésta carpeta debería ir directamente en la carpeta HTDOCS de XAMPP.
+El entorno de desarrollo es en localhost y la codificación principal se encuentra en la carpeta platzi/wp-content/themes/platzi
+
 # Platzi - Curso Práctico de Wordpress
 
 Material del curso : https://static.platzi.com/media/public/uploads/copy-of-slides-pptx_306f7fd8-0e01-4cd4-b17f-98bbb57f8c50.pdf 
@@ -30,6 +33,7 @@ Podemos descargar los archivos fuentes de "Wordpress" e instalarlo en nuestro se
 - Actualizaciones: Está en constante credimiento.
 - Comunidad: Cuenta con una gran comunidad que aporta a su desarrollo.
 
+
 ## Theme
 
 Son los archivos que controlan como el sitio de WordPress será visualizado.
@@ -52,3 +56,4 @@ Es la vista que carga por defecto como página de inicio.
 Se indica la información del pie de página.
 
 ### functions.php
+
