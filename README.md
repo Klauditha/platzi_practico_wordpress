@@ -78,3 +78,24 @@ Este archivo será nuestra imagen de muestra en la sección de theme en el admin
 ### single.php 
 
 Es la vista que se carga por defecto para entradas cuando no se especifica una.
+
+## Hooks
+
+Lugaes dentro del código fuente de WordPress en los cuales podemos agregar código propio o modificar datos que el mismo nos provee.
+
+Existen diferentes tipos de hooks:
+
+### Action 
+
+Nos permite ejecutar una función personalizada en un punto específico del código fuente de WordPress. No retorna nungun valor.
+
+  - add_action
+
+### Filter
+
+Nos permite ejecutar una función personalizada en un determinado punto, tendrá parámetros de entrada, dentro de nuestra función haremos modificaciones y finalmente lo retornaremos modificado. 
+
+  - add_filter
+
+
+
