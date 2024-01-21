@@ -57,3 +57,24 @@ Se indica la información del pie de página.
 
 ### functions.php
 
+Archivo central de todas las funcionalidades de nuestro theme.
+
+### header.php
+
+Indica la información del encabezado.
+
+### 404.php
+
+Indica la información que se mostrará cuando alguien ingrese a una url de nuestro sitio que no exista.
+
+### page.php
+
+Es la vista que se carga por defecto para páginas cuando no se le especifica una.
+
+### screenshot.png
+
+Este archivo será nuestra imagen de muestra en la sección de theme en el administrador.
+
+### single.php 
+
+Es la vista que se carga por defecto para entradas cuando no se especifica una.
