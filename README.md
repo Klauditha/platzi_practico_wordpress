@@ -97,5 +97,48 @@ Nos permite ejecutar una función personalizada en un determinado punto, tendrá
 
   - add_filter
 
+## Manejo de librerías
 
+Funciones para CSS
 
+### wp_register_style()
+
+Nos sirve para registrar en librería y tenerla a disposición con una dependencia, pero no las va a ejecutar en nuestro HTML
+
+Argumentos:
+  - $handle string : Nombre de nuestra libreria 
+  - $src string|bool : 
+  - $deps = array() array : Dependencias 
+  - $ver = string|bool|null : Versión de caché
+  - $media = 'all' string : Permite que nuestro CSS se ejecute en todos lados o en un lugar en especifico.
+  
+### wp_enqueue_style()
+
+Nos va a ejecutar directamente la librería que nosotros le digamos, pero va a llamar las referencias sin necesitar alguna que tengamos registradas. Esta también va a recibir los mismos argumentos pero la ejecución va a ser directamente en vez de registrarlos, dejarla a disposición ya ejecutado en nuestro HTML.
+
+Argumentos:
+  - $handle string 
+  - $src string|bool
+  - $deps = array() array 
+  - $ver = string|bool|null 
+  - $media = 'all' string 
+
+Funciones para Javascript
+
+### wp_register_script()
+
+Argumentos:
+  - $handle string 
+  - $src string|bool
+  - $deps = array() array 
+  - $ver = string|bool|null 
+  - $in_footer = false bool : Para que se ejecute en el footer o en el header
+
+### wp_enqueue_script()
+
+Argumentos:
+  - $handle string 
+  - $src string|bool
+  - $deps = array() array 
+  - $ver = string|bool|null 
+  - $in_footer = false bool : Para que se ejecute en el footer o en el header
